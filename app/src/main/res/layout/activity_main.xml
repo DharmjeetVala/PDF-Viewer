@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/pdfView">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/"
+            android:id="@+id/fabPickPdf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="36dp"
