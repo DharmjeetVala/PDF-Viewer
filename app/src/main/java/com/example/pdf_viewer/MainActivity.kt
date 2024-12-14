@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             pickPdfFile()
         }
     }
-
+    //Open PDF From Device
     private fun pickPdfFile() {
         val intent = Intent(Intent.ACTION_OPEN_DOCUMENT).apply {
             type = "application/pdf"
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         }
         pickPdfLauncher.launch(intent)
     }
-
+    
     private fun displayPdf(uri: Uri) {
         binding.pdfView.fromUri(uri)
             .enableSwipe(true)
